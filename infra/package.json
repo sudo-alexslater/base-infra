@@ -1,15 +1,12 @@
 {
-  "name": "@alexslater-io/base-infra",
+  "name": "@alexslaterio/base-infra",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "deploy": "terraform apply -var-file='private.tfvars'"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "typescript": "^5.5.4"
-  }
+  "description": ""
 }

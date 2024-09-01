@@ -13,7 +13,7 @@ variable "cloudflare_api_token" {
 }
 
 locals {
-  service     = "base-infra"
+  service     = "base"
   environment = terraform.workspace
   account_id  = local.account_id_lookup[local.environment]
   account_id_lookup = {
