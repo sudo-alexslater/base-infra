@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "typescript": "^5.5.4"
+  "devDependencies": {},
+  "dependencies": {
+    "@alexslater-io/common": "^1.0.4"
   }
 }
